@@ -1,0 +1,75 @@
+/* Define a fonte principal */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo da barra de navegação */
+  nav {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+  }
+  
+  /* Estilo do nome da marca na barra de navegação */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Estilo dos links na barra de navegação */
+  .navbar-nav > li > a {
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Estilo do Jumbotron */
+  .jumbotron {
+    background-color: #f8f8f8;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 50px;
+  }
+  
+  /* Estilo do título da seção de produtos */
+  .container h2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+  }
+  
+  /* Estilo dos produtos */
+  .container > .row > .col-sm-4 {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Estilo do título do produto */
+  .container > .row > .col-sm-4 > h3 {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  /* Estilo da descrição do produto */
+  .container > .row > .col-sm-4 > p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo do preço do produto */
+  .container > .row > .col-sm-4 > p > strong {
+    font-size: 18px;
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: #f8f8f8;
+    color: #555;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+  

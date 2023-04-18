@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Palácio da Piacanha - Carne boa só Aqui-!</title>
+
+  <!-- Importando os arquivos CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Importando arquivo CSS personalizado -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Palácio da Piacanha</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#cardapio">Cardápio</a></li>
+          <li><a href="#sobre-nos">Sobre nós</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <section class="jumbotron">
+    <div class="container">
+      <h1>Conheça a melhor casa de carnes da cidade!</h1>
+      <p>Servimos os melhores cortes de carne grelhados na hora, acompanhados de deliciosos pratos e bebidas.</p>
+      <p><a href="#cardapio" class="btn btn-primary btn-lg">Ver cardápio</a></p>
+    </div>
+  </section>
+
+  <!-- Seção de cardápio -->
+  <section class="container" id="cardapio">
+    <h2>Cardápio</h2>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Churrasco misto</h3>
+        <img src="Uploads/carne_churrasco_misto.png" alt="Churrasco misto" class="img-responsive">
+        <p>Corte especial de picanha, linguiça toscana, frango grelhado, acompanhado de arroz, feijão, batata frita e salada.</p>
+        <p><strong>Preço: R$ 90,89</strong></p>
+      </div>
+	  <div class="col-sm-4">
+        <h3>Bife ancho</h3>
+        <img src="Uploads/carne_bife_ancho.png" alt="Bife ancho" class="img-responsive">
+        <p>Delicioso corte de bife ancho, acompanhado de arroz, feijão, batata frita e salada.</p>
+        <p><strong>Preço: R$ 99,90</strong></p>
+      </div>
+
+
+
+		<div class="col-sm-4">
+			<h3>Picanha fatiada</h3>
+			<img src="Uploads/carne_picanha_na_chapa.png" alt="Picanha fatiada" class="img-responsive">
+			<p>Corte especial de picanha fatiada, acompanhado de arroz, feijão, batata frita e salada.</p>
+			<p><strong>Preço: R$ 120,99</strong></p>
+		  </div>
+		  
+
+  </section>
+  <!-- Seção Sobre nós -->
+  <section class="container" id="sobre-nos">
+    <h2>Sobre nós</h2>
+    <p>O Palácio da Piacanha é uma tradicional churrascaria da cidade, com mais de 30 anos de tradição. Oferecemos aos nossos clientes os melhores cortes de carne grelhados na hora, acompanhados de pratos deliciosos e bebidas variadas.</p>
+  </section>
+  <!-- Seção de contato -->
+  <section class="container" id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para fazer sua reserva ou tirar dúvidas.</p>
+    <form action="enviar_email.php" method="POST">
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem</label>
+        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+  <!-- Rodapé -->
+  <footer class="container-fluid text-center">
+    <p>Palácio da Picanha &copy; 2023. Todos os direitos reservados.</p>
+  </footer>
+  <!-- Importando arquivos JavaScript do jQuery e do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
